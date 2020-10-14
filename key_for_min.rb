@@ -9,5 +9,6 @@ name_hash.each do |key, value|
   #iterate and find a lower one, if its lower, replace the #current one
   #If the method is called and passed an argument of an #empty hash, it should return nil
   if lowest_value == nil || value < lowest_value
-    lowest value = value
+    lowest value == value
+    lowest key == key
 end
